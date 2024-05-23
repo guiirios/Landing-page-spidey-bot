@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    text-decoration: none;
+   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", normal; 
+    background-image: linear-gradient(0.80turn, #f53131, #ff3636 );
+
+}
+
+
+/*Topo vou mexer no topo*/
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    
+    
+}
+
+/*vou mudar o position dele para ele não afetar os outros objetos e dar um top para dar  espaçamenmto de 20 para ele*/
+.topo img {
+    position: relative;
+    top: 20px;
+}
+
+/*Vou tornar os  links flexiveis dentro do topo para poder usar o gap, para me dar espaçamento*/
+.nav-topo {
+    display: flex;
+    gap: 30px;
+  
+}
+
+
+/*caracteristicas do link*/
+.link-topo{
+    color: white;
+}
+
+.link-topo:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*meio*/
+/*Tudo que estiver no meio será divido em colunas, cada sessao, fazendo cada uma ficar em baixo da outra*/
+.meio {
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*Conteudo abaixo do top que está no meio*/
+.conteudo-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.conteudo-1 img {
+    position: relative;
+    top: 10px;
+    right: 60px;
+    
+}
+/*Texto princiapl sobre spidey bot*/
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*texto principal escrito spidey bot*/
+#texto-spidey {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+/*texto que esta abaixo do spidey bot*/
+#texto-spidey-2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+  
+}
+
+/*Botao do texto principal*/
+.botao-conteudo-1 {
+    border: 0;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.193);
+    background-color: #0066FF;
+    color: white;
+    font-weight: 550;
+    height: 50px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.botao-conteudo-1:hover {
+    background-color: #3f8cff;
+}
+
+
+/*FECHA O LADO ESQUERDO DA PARTE PRINCIPAL*/
+
+
+
+
+
+
+/*conteudo 2 do site, que está no meio*/
+
+.conteudo-2 {
+    margin-top: 60px;
+    margin-bottom: 27px;
+    padding: 10px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.texto-principal-conteudo-2 {
+    text-align: center;
+
+    border-top: 1px solid white;
+    padding: 20px;
+}
+
+
+/*footer*/
+.rodape {
+    background-color: black;
+    color: white;
+
+}
+  
